@@ -56,6 +56,13 @@ main {
     width: 151px;
     background-color: #FAFAFA;
     color: #EC362D;
-    border: 1px dashed #EC362D;;
+    border: 1px dashed #EC362D;
     border-radius: 50px;
+}
+
+.criar-quiz button:hover {
+    background-color: #EC362D;
+    border: 1px dashed #FAFAFA;
+    color: #FAFAFA;
+    cursor: pointer;
 }
