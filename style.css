@@ -6,6 +6,7 @@
 
 body{
     font-family: "Roboto";
+    background-color: #FAFAFA;
 }
 
 /*Cabeçalho*/
@@ -23,4 +24,38 @@ header{
     color: #fff;
     font-weight: 700;
     font-size: 36px;
+}
+
+main {
+    width: 73%;
+    margin: 80px auto 0 auto;
+    padding-top: 31px;
+}
+
+.criar-quiz {
+    /* background-color: red; */
+    height: 200px;
+    margin-bottom: 10px;
+    border: 1px dashed #D4D4D4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.criar-quiz h1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #B9B9B9;
+}
+
+.criar-quiz button {
+    height: 40px;
+    width: 151px;
+    background-color: #FAFAFA;
+    color: #EC362D;
+    border: 1px dashed #EC362D;;
+    border-radius: 50px;
 }
