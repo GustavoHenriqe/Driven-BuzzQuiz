@@ -138,7 +138,19 @@ main {
     padding-left: 23px;
 }
 
-
+.criacao-quiz button {
+    width: 369px;
+    height: 54px;
+    background-color: #EC362D;
+    border: hidden;
+    border-radius: 15px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #FFF5F4;
+    cursor: pointer;
+}
 
 .escondido {
     display: none;
